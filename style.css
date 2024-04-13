@@ -557,3 +557,18 @@ h2{
         width: 90%;
     }
 }
+
+
+@media screen and (max-height: 600px) {
+    .center{
+        margin-top: 10px;
+    }
+
+    .ftr_el{
+        margin-top: 15px;
+    }
+
+    .name_block{
+        margin-top: -15px;
+    }
+}
