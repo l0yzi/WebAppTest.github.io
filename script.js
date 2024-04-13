@@ -13,3 +13,13 @@ function getStorage () {
     storageScreen.classList.remove('hide')
     storageScreen.classList.add('visible_storage_screen')
 }
+
+var BackButton = WebApp.BackButton;
+BackButton.show();
+BackButton.onClick(function() {
+  WebApp.showAlert("Нет пути назад!");
+  BackButton.hide();
+});
+WebApp.onEvent('backButtonClicked', function() {
+  /* код */
+});
