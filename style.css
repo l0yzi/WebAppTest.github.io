@@ -237,7 +237,7 @@ h2{
     border-radius: 12px;
     background: #FFF;
     box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.25);
-    margin-top: 37px;
+    margin-top: 2   7px;
 }
 
 .ftr_el img{
@@ -570,5 +570,8 @@ h2{
 
     .name_block{
         margin-top: -15px;
+    }
+    .gif_hami{
+        width: 225px;
     }
 }
