@@ -15,12 +15,12 @@ function getStorage () {
 }
 
 
-window.onload = function () {
-    if(preloaderScreen.classList.contains('visible_preloader')){
-        window.setTimeout(function () {
-            preloaderScreen.classList.remove('visible_preloader')
-            preloaderScreen.classList.add('hide')
-            window.location="main.html"
-        }, 8000);
-    } 
-}
+// window.onload = function () {
+//     if(preloaderScreen.classList.contains('visible_preloader')){
+//         window.setTimeout(function () {
+//             preloaderScreen.classList.remove('visible_preloader')
+//             preloaderScreen.classList.add('hide')
+//             window.location="main.html"
+//         }, 5000);
+//     } 
+// }
