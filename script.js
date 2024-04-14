@@ -15,12 +15,16 @@ function getStorage () {
 }
 
 
-window.onload = function () {
-    if(preloaderScreen.classList.contains('visible_preloader')){
-        window.setTimeout(function () {
-            preloaderScreen.classList.remove('visible_preloader')
-            preloaderScreen.classList.add('hide')
-            window.location="main.html"
-        }, 5000);
-    } 
+
+
+function preloaderLoad() {
+    setTimeout(function() {
+        window.location.href = "main.html";
+        preloaderScreen.classList.remove('visible_preloader')
+        preloaderScreen.classList.add('hide')
+    }, 4000); 
+}
+
+if(preloaderScreen.classList.contains('visible_preloader')){
+    window.onload = preloaderLoad;
 }
